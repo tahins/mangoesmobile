@@ -1,0 +1,107 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0px;
+    height: 100%;
+    font-size: 95%;
+}
+
+.vertical-center {
+    position: relative;
+    margin-top: 15%;
+}
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.collective-container {
+    width: 100%;
+    height: 70%;
+    text-align: center;
+}
+
+.logo-container {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-mangoes-logo-container {
+    text-align: right;
+}
+
+.footer-mangoes-logo {
+    width: 14%;
+    padding: 1%;
+}
+
+#full-logo, #full-logo-shadow {
+    position: absolute;
+    left: 28%;
+    top: 29%;
+}
+
+#wave, #wave-shadow {
+    position:absolute;
+    margin:0;
+    padding:0;
+    top:0px;
+    right: -20px;
+    height:30px;
+    width:41px;
+    z-index:8;
+}
+
+#logo, #logo-shadow {
+    right:0px;
+}
+
+.wave {
+    position: absolute;
+    width: 39px;
+    height: 41px;
+}
+
+#wave-1 {
+    background-image: url("../../assets/img/logo/wave_1.png");
+}
+
+#wave-2 {
+    background-image: url("../../assets/img/logo/wave_2.png");
+}
+
+#wave-3 {
+    background-image: url("../../assets/img/logo/wave_3.png");
+}
+
+#wave-4 {
+    background-image: url("../../assets/img/logo/wave_4.png");
+}
+
+#wave-1-shadow {
+    background-image: url("../../assets/img/logo/wave_1_shadow.png");
+}
+
+#wave-2-shadow {
+    background-image: url("../../assets/img/logo/wave_2_shadow.png");
+}
+
+#wave-3-shadow {
+    background-image: url("../../assets/img/logo/wave_3_shadow.png");
+}
+
+#wave-4-shadow {
+    background-image: url("../../assets/img/logo/wave_4_shadow.png");
+}
+
+.black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    background-image: url("../../assets/img/flashlight.jpeg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    cursor: none;
+}
